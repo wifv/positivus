@@ -1,0 +1,104 @@
+@media screen and (max-width: 1317px) {
+    .container {
+        width: 1100px !important;
+    }
+    .company-logos {
+        flex-wrap: wrap;
+    }
+    .flex-container-2 {
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 1217px) {
+    .container {
+        max-width: 1000px !important;
+    }
+    .team-container {
+        justify-content: space-evenly;
+        gap: 20px;
+    }
+}
+@media screen and (max-width: 1117px) {
+    .container {
+        max-width: 900px !important;
+    }
+    .nav-link-container.header-nav {
+        visibility: hidden;
+    }
+}
+@media screen and (max-width: 1017px) {
+    .container {
+        max-width: 800px !important;
+    }
+    #ill-2 {
+        display: none;
+    }
+    #ill-1 {
+        display: block;
+    }
+    #footer-container {
+        margin: 0;
+        max-width: 100% !important;
+    }
+    .footer {
+       max-width: 100% !important;
+    }
+    .footer-in {
+       max-width: 100% !important;
+       border-radius: 0;
+    }
+    .f-nav {
+        flex-direction: column;
+        gap: 15px;
+    }
+    .nav-link-container.footer-nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .social-icons {
+        display: none;
+    }
+    .frame-28 {
+        flex-direction: column;
+        align-items: center;
+        gap: 35px;
+    }
+    .center {
+        margin: auto;
+    }
+    .info {
+        align-items: center;
+        text-align: center;
+    }
+    .contact-us-right {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media screen and (max-width: 917px) {
+    .container {
+        max-width: 700px !important;
+    }
+    .form-container {
+        padding: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media screen and (max-width: 717px) {
+    .container {
+        max-width: 96% !important;
+    }
+    #card-id > img {
+        
+        display: none;
+    }
+    .form-input {
+        max-width: 100%;
+    }
+}
+
